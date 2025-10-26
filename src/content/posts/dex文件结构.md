@@ -65,7 +65,7 @@ lang: ''
 
 > 图1自己画的概图，图2来自52pj Hawcett
 
-![e0a5d9552e601a92c1c09508e10db48d](/Users/lanzhiqiang/Documents/Mizuki_blog/src/content/posts/assets/image-20250829080750816.png)![DEX文件格式](/Users/lanzhiqiang/Documents/Mizuki_blog/src/content/posts/assets/image-20250829080750816.png)
+![e0a5d9552e601a92c1c09508e10db48d](./assets/image-20250829080750816.png)![DEX文件格式](./assets/image-20250829080750816.png)
 
 dex文件结构比pe文件简单，主要包含以上数据体
 
