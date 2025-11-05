@@ -1,10 +1,10 @@
 ---
 title: dex文件结构
-published: 2025-10-26
-description: '简略了解'
+published: 2025-11-06
+description: ''
 image: ''
-tags: []
-category: '笔记'
+tags: [学习笔记]
+category: 'Android'
 draft: false 
 lang: ''
 ---
@@ -65,7 +65,7 @@ lang: ''
 
 > 图1自己画的概图，图2来自52pj Hawcett
 
-![e0a5d9552e601a92c1c09508e10db48d](./assets/image-20250829080750816.png)![DEX文件格式](./assets/image-20250829080750816.png)
+![e0a5d9552e601a92c1c09508e10db48d](./assets/e0a5d9552e601a92c1c09508e10db48d.png)![DEX文件格式](./assets/DEX文件格式.png)
 
 dex文件结构比pe文件简单，主要包含以上数据体
 
@@ -111,7 +111,7 @@ typedef struct DexHeader {
 } DexHeader;
 ```
 
-我们可以在010editor里查看文件结构![a001f4dfc7d258360b83278963f3d904_720](/Users/lanzhiqiang/Pictures/typora_magic/a001f4dfc7d258360b83278963f3d904_720.png)
+我们可以在010editor里查看文件结构![a001f4dfc7d258360b83278963f3d904_720](./assets/a001f4dfc7d258360b83278963f3d904_720.png)
 
 这里已经比较直观了，也可以写个脚本直接查询
 
@@ -236,7 +236,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-效果如下：![e19a7d13a06cce9df2c620b03fe0dade_720](/Users/lanzhiqiang/Pictures/typora_magic/e19a7d13a06cce9df2c620b03fe0dade_720.png)
+效果如下：![e19a7d13a06cce9df2c620b03fe0dade_720](./assets/e19a7d13a06cce9df2c620b03fe0dade_720.png)
 
 ## string_ids
 
@@ -443,6 +443,3 @@ struct DexMapItem {
     u4 offset;            /* 类型数据的文件偏移 */
 };
 ```
-
-
-

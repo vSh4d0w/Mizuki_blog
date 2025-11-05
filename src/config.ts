@@ -82,15 +82,11 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/d3.webp",
 				"/assets/desktop-banner/d4.webp",
 				"/assets/desktop-banner/d5.webp",
-				"/assets/desktop-banner/d6.webp",
-				"/assets/desktop-banner/d7.webp",
-				"/assets/desktop-banner/d8.webp",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/m1.webp",
 				"/assets/mobile-banner/m2.webp",
 				"/assets/mobile-banner/m3.webp",
-				"/assets/mobile-banner/m4.webp",
 				"/assets/mobile-banner/m5.webp",
 				"/assets/mobile-banner/m6.webp",
 				"/assets/mobile-banner/m7.webp",
@@ -171,8 +167,10 @@ export const siteConfig: SiteConfig = {
 	},
 	showLastModified: true, // 控制“上次编辑”卡片显示的开关
 };
+
+// 启用了Banner模式后，FullscreenWallpaperConfig配置将被忽略
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
-	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
+	enable: false, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
 		desktop: [
 			"/assets/desktop-banner/d1.webp",
@@ -347,7 +345,7 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
-	content: "欢迎致电Q467194403", // 公告内容
+	content: "学习过一点reverse、android，正在考虑学新东西ing", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: false, // 启用链接
