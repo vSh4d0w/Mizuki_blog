@@ -32,12 +32,12 @@ export const siteConfig: SiteConfig = {
 	// 特色页面开关配置(关闭不在使用的页面有助于提升SEO,关闭后直接在顶部导航删除对应的页面就行)
 	featurePages: {
 		anime: true, // 番剧页面开关
-		diary: true, // 日记页面开关
+		diary: false, // 日记页面开关
 		friends: true, // 友链页面开关
-		projects: true, // 项目页面开关
-		skills: true, // 技能页面开关
-		timeline: true, // 时间线页面开关
-		albums: true, // 相册页面开关
+		projects: false, // 项目页面开关
+		skills: false, // 技能页面开关
+		timeline: false, // 时间线页面开关
+		albums: false, // 相册页面开关
 	},
 
 	// 顶栏标题配置
@@ -238,7 +238,7 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:person",
 			children: [
 				LinkPreset.Anime,
-				LinkPreset.Diary,
+				// LinkPreset.Diary,
 				// {
 				// 	name: "Gallery",
 				// 	url: "/albums/",
@@ -255,28 +255,28 @@ export const navBarConfig: NavBarConfig = {
 				LinkPreset.Friends,
 			],
 		},
-		{
-			name: "Others",
-			url: "#",
-			icon: "material-symbols:more-horiz",
-			children: [
-				{
-					name: "Projects",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
-				// {
-				// 	name: "Skills",
-				// 	url: "/skills/",
-				// 	icon: "material-symbols:psychology",
-				// },
-				// {
-				// 	name: "Timeline",
-				// 	url: "/timeline/",
-				// 	icon: "material-symbols:timeline",
-				// },
-			],
-		},
+		// {
+		// 	name: "Others",
+		// 	url: "#",
+		// 	icon: "material-symbols:more-horiz",
+		// 	children: [
+		// 		{
+		// 			name: "Projects",
+		// 			url: "/projects/",
+		// 			icon: "material-symbols:work",
+		// 		},
+		// 		// {
+		// 		// 	name: "Skills",
+		// 		// 	url: "/skills/",
+		// 		// 	icon: "material-symbols:psychology",
+		// 		// },
+		// 		// {
+		// 		// 	name: "Timeline",
+		// 		// 	url: "/timeline/",
+		// 		// 	icon: "material-symbols:timeline",
+		// 		// },
+		// 	],
+		// },
 	],
 };
 
@@ -344,7 +344,10 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
-	content: "学习过一点reverse、android，正在考虑学新东西ing", // 公告内容
+	content:
+		"[旧博客放转转了，此博客还在完善]" +
+		"\n" +
+		"学习过一些reverse、android，正在考虑学新东西ing", // 公告内容
 	closable: false, // 允许用户关闭公告
 	link: {
 		enable: false, // 启用链接
