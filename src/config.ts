@@ -232,20 +232,20 @@ export const navBarConfig: NavBarConfig = {
 		// 		// },
 		// 	],
 		// },
-		{
-			name: "My",
-			url: "/content/",
-			icon: "material-symbols:person",
-			children: [
-				LinkPreset.Anime,
-				// LinkPreset.Diary,
-				// {
-				// 	name: "Gallery",
-				// 	url: "/albums/",
-				// 	icon: "material-symbols:photo-library",
-				// },
-			],
-		},
+		// {
+		// 	name: "My",
+		// 	url: "/content/",
+		// 	icon: "material-symbols:person",
+		// 	children: [
+		// 		LinkPreset.Anime,
+		// 		// LinkPreset.Diary,
+		// 		// {
+		// 		// 	name: "Gallery",
+		// 		// 	url: "/albums/",
+		// 		// 	icon: "material-symbols:photo-library",
+		// 		// },
+		// 	],
+		// },
 		{
 			name: "About",
 			url: "/content/",
